@@ -18,7 +18,7 @@ AWS.config.update({
 var s3 = new AWS.S3();
 
 // Unique name of aws s3 bucket created
-const myBucket = 'multer-s3-tutorial';
+const myBucket = 'minderz';
 
 // Multer upload (Use multer-s3 to save directly to AWS instead of locally)
 var upload = multer({
